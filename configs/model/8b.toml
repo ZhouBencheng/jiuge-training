@@ -1,0 +1,10 @@
+name = "CPM-9G-8B"
+path = "/private/models/CPM-9G-8B/9g_8b_thinking"
+layers = 32
+hidden_size = 4096
+num_attention_heads = 32
+num_query_groups = 2
+ffn_hidden_size = 16384
+vocab_size = 73448
+smoke = false
+tie_word_embeddings = false

@@ -1,0 +1,10 @@
+name = "FM9G-7B"
+path = "/private/models/FM9G-7B/9G7B_MHA"
+layers = 28
+hidden_size = 3584
+num_attention_heads = 28
+num_query_groups = 28
+ffn_hidden_size = 18944
+vocab_size = 73448
+smoke = false
+tie_word_embeddings = false

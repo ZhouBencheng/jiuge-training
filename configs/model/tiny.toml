@@ -1,0 +1,10 @@
+name = "Tiny random smoke ONLY"
+path = ""
+layers = 4
+hidden_size = 128
+num_attention_heads = 8
+num_query_groups = 2
+ffn_hidden_size = 256
+vocab_size = 256
+smoke = true
+tie_word_embeddings = false

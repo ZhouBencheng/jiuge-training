@@ -1,0 +1,31 @@
+{
+  "corex": {
+    "cuda_compatibility": "10.2",
+    "path": "/usr/local/corex",
+    "resolved_path": "/usr/local/corex-4.4.0"
+  },
+  "device": "Iluvatar BI-V150",
+  "megatron_commit": "5be9626709af2722333bf54797c954c09edeada3",
+  "note": "Vendor CoreX packages are supplied by the platform image; this inventory is not a PyPI installation lock.",
+  "packages": {
+    "accelerate": "1.11.0",
+    "apex": "0.1+corex.4.4.0",
+    "bitsandbytes": "0.43.3+corex.4.4.0",
+    "deepspeed": null,
+    "flash-attn": "2.6.3+corex.4.4.0",
+    "megatron-core": null,
+    "peft": "0.18.1",
+    "torch": "2.7.1+corex.4.4.0",
+    "transformer-engine": null,
+    "transformers": "4.57.6",
+    "triton": "3.1.0+corex.4.4.0"
+  },
+  "platform": "Linux-5.4.0-144-generic-x86_64-with-glibc2.39",
+  "project_private_dependencies": {
+    "directory": ".deps",
+    "pybind11": "2.13.6",
+    "requirements": "requirements-bootstrap.txt",
+    "wheel_sha256": "237c41e29157b962835d356b370ededd57594a26d5894a795960f0047cb5caf5"
+  },
+  "python": "3.12.3"
+}

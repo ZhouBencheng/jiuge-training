@@ -1,0 +1,5 @@
+dp = 2
+tp = 8
+pp = 4
+nnodes = 8
+nproc_per_node = 8

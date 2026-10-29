@@ -1,0 +1,11 @@
+name = "CPM-9G-8B-MHA"
+path = "/private/models/CPM-9G-8B-MHA/sft_8b_v2"
+checkpoint_format = "cpm9g-bmtrain"
+layers = 32
+hidden_size = 4096
+num_attention_heads = 32
+num_query_groups = 32
+ffn_hidden_size = 14336
+vocab_size = 119696
+smoke = false
+tie_word_embeddings = false

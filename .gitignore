@@ -1,0 +1,16 @@
+__pycache__/
+._*
+*.py[cod]
+.deps/
+.cache/
+data/
+runs/
+logs/
+*.log
+artifacts/
+*.egg-info/
+build/
+dist/
+*.safetensors
+*.pt
+*.bin

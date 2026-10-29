@@ -1,0 +1,10 @@
+name = "FM9G-4B"
+path = "/private/models/FM9G-4B/9G4B"
+layers = 62
+hidden_size = 2560
+num_attention_heads = 40
+num_query_groups = 4
+ffn_hidden_size = 6400
+vocab_size = 73448
+smoke = false
+tie_word_embeddings = true
